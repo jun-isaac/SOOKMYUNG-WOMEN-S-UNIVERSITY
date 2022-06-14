@@ -1,0 +1,290 @@
+/* style.css */
+
+:root {
+    --main-color: #0C2D83;
+    --tool-color: #666666;
+    --text-color: #333;
+    --heading1: 40px;
+    --heading2: 30px;
+    --baseFontSize: 18px;
+}
+
+* {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    width: 1440px;
+    height: 1813px;
+}
+
+h1 {
+    font-size: var(--heading1);
+}
+
+h2 {
+    font-size: var(--heading2);
+}
+
+
+#main_header {
+    width: 1440px;
+    height: 100px;
+    position: relative;
+}
+
+#main_header>.logo {
+    position: absolute;
+    left: 20px;
+    top: 26px;
+    float: left;
+}
+
+.menu {
+    position: absolute;
+    float: left;
+    right: 469px;
+    top: 38px;
+    padding: 0;
+    font-family: 'NanumGothic', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.menu>li {
+    display: inline-block;
+    margin-left: 59px;
+}
+
+.menu a {
+    color: #000;
+}
+
+.tool {
+    position: absolute;
+    float: left;
+    right: 66px;
+    top: 38px;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.tool>li {
+    display: inline-block;
+    margin-left: 14px;
+    color: var(--tool-color)
+}
+
+.tool a {
+    color: var(--tool-color);
+}
+
+.tool .language {
+    margin-left: 28px;
+    width: 43px;
+    height: 16px;
+    border: 1px solid var(--tool-color);
+    text-align: center;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.icon_1 {
+    position: absolute;
+    right: 20px;
+    top: 36px;
+}
+
+.main_img {
+    width: 1440px;
+    height: 550px;
+    position: relative;
+}
+
+.main_img>p {
+    position: absolute;
+    left: 59px;
+    top: 178px;
+    color: #fff;
+    font-family: 'NanumMyeongjo', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46.8939px;
+    line-height: 65px;
+    letter-spacing: 0.02em;
+}
+
+.introduction {
+    width: 1440px;
+    height: 542px;
+    position: relative;
+}
+
+.introduction>p {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    font-family: 'NanumMyeongjo', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 32px;
+}
+
+.image_container {
+    position: absolute;
+    top: 103px;
+    width: 1440px;
+    height: 386px;
+}
+
+.s_image:first-child {
+    margin-left: 20px;
+    width: 335px;
+    height: 386px;
+    float: left;
+    position: relative;
+}
+
+.s_image:nth-child(2) {
+    margin-left: 20px;
+    width: 335px;
+    height: 386px;
+    float: left;
+    position: relative;
+}
+
+.s_image:nth-child(3) {
+    margin-left: 20px;
+    width: 335px;
+    height: 386px;
+    float: left;
+    position: relative;
+}
+
+.s_image:last-child {
+    margin-left: 20px;
+    width: 335px;
+    height: 386px;
+    float: left;
+    position: relative;
+}
+
+.s_image>h3 {
+    font-family: 'NanumGothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+}
+
+.s_image:first-child>h3 {
+    position: absolute;
+    left: 118px;
+    top: 330px;
+}
+
+.s_image:nth-child(2)>h3 {
+    position: absolute;
+    left: 118px;
+    top: 330px;
+}
+
+.s_image:nth-child(3)>h3 {
+    position: absolute;
+    left: 118px;
+    top: 330px;
+}
+
+.s_image:nth-child(4)>h3 {
+    position: absolute;
+    left: 118px;
+    top: 330px;
+}
+
+.s_image>div {
+    font-family: 'NanumGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.s_image:first-child>div {
+    position: absolute;
+    top: 365px;
+    width: 335px;
+    justify-content: center;
+    text-align: center;
+}
+
+.s_image:nth-child(2)>div {
+    position: absolute;
+    top: 365px;
+    width: 335px;
+    justify-content: center;
+    text-align: center;
+}
+
+.s_image:nth-child(3)>div {
+    position: absolute;
+    top: 365px;
+    width: 335px;
+    justify-content: center;
+    text-align: center;
+}
+
+.s_image:nth-child(4)>div {
+    position: absolute;
+    top: 365px;
+    width: 335px;
+    justify-content: center;
+    text-align: center;
+}
+
+.notice {
+    position: relative;
+    width: 1440px;
+    height: 398px;
+}
+
+.notice>p {
+    position: absolute;
+    left: 20px;
+    top: 50px;
+    font-family: 'NanumMyeongjo';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 32px;
+}
+
+.icon_box {
+    position: relative;
+    width: calc(1440px/3);
+    height: 245px;
+    top: 103px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.notice>.icon_box:first-child>img {
+    position: absolute;
+    top: 50px;
+    left: 191px;
+}
